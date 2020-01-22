@@ -1,0 +1,19 @@
+<ion-content color="primary">
+
+    <img class="ricardopalma" src="assets/ricardopalmablanco.png">
+    <img class="alertamiraflores" src="assets/botonalerta.png">
+    <img class="mirafloresblanco" src="assets/mirafloresblanco.png">
+
+    <h1 class="container-menu">Iniciar Sesión</h1>
+
+    <p class="correoelectronico">Correo Electrónico:</p>
+    <ion-input class="inputcorreo" type="email" [(ngModel)]="Username"></ion-input>
+    <p class="contrasena">Contraseña:</p>
+    <ion-input class="inputcontrasena" type="password" [(ngModel)]="password"></ion-input>
+    <p class="olvidaste" routerLink="/recuperarcontrasena">Olvidaste tu contraseña?</p>
+
+    <ion-button class="login" expand="block" color="danger" (click)="login()">Iniciar Sesión</ion-button>
+
+    <p class="crearcuenta" routerLink="/crearcuenta">Crea una cuenta Miraflores</p>
+
+</ion-content>

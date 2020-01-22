@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-buttons slot="start">
+        <ion-back-button text="Regresar" defaultHref="/tabs/tab1" class="ricardopalma"></ion-back-button>
+        <ion-title class="nueva">Configuración</ion-title>
+        <img class="buttons" src="assets/mirafloresnormal.png">
+    </ion-buttons>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-item href="#" class="activated">
+            <ion-icon name="wifi" slot="start"></ion-icon>
+            <ion-label>Desactivar el Wi-Fi</ion-label>
+        </ion-item>
+
+        <ion-item href="#">
+            <ion-icon name="bell" slot="start"></ion-icon>
+            <ion-label>Desactivar Notificaciones</ion-label>
+        </ion-item>
+
+        <ion-item class="activated">
+            <ion-icon name="help" slot="start"></ion-icon>
+            <ion-label>Acerca de Nosotros</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon name="help" slot="start"></ion-icon>
+            <ion-label>Card Button Item 2</ion-label>
+        </ion-item>
+    </ion-card>
+
+    <ion-button class="login" expand="block" color="danger" routerLink="/home">Cerrar Sesión</ion-button>
+
+</ion-content>

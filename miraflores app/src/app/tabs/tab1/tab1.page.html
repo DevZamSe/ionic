@@ -1,0 +1,60 @@
+<ion-header>
+    <ion-buttons slot="start">
+        <img class="ricardopalma" src="assets/ricardopalmanormal.png">
+        <ion-title class="nueva">Inicio</ion-title>
+        <img class="buttons" src="assets/mirafloresnormal.png">
+    </ion-buttons>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+        <img src="/assets/fondo.png" height="200px" />
+        <ion-card-header>
+            <ion-card-title>Bienvenido a Miraflores </ion-card-title>
+        </ion-card-header>
+    </ion-card>
+
+    <ion-card>
+        <ion-list-header>
+            <ion-label>Servicios Disponibles</ion-label>
+        </ion-list-header>
+
+        <tr class="iconos">
+            <td padding-horizontal="30px">
+                <img src="/assets/recortemascota.png" class="imagen" routerLink="/makevideo" />
+                <p class="texto">Alerta Mascota</p>
+            </td>
+            <td>
+                <img src="/assets/recorteincidente.png" class="imagen" />
+                <p class="texto">Reportar Incidente</p>
+            </td>
+        </tr>
+
+    </ion-card>
+
+    <ion-list lines="none">
+        <ion-list-header>
+            <ion-label>Próximamente Disponible</ion-label>
+        </ion-list-header>
+        <ion-item href="http://chat.miraflores.gob.pe/chat/client.php">
+            <ion-icon slot="start" color="medium" name="person"></ion-icon>
+            <ion-label>Chatea con Funcionarios</ion-label>
+        </ion-item>
+        <ion-item href="https://portal.miraflores.gob.pe/as/segn.asp?ttra=1">
+            <ion-icon slot="start" color="medium" name="cash"></ion-icon>
+            <ion-label>Pago de Tributos</ion-label>
+        </ion-item>
+        <ion-item href="https://digital.miraflores.gob.pe:8443/miraflores/libro-reclamo-miraflores.muni">
+            <ion-icon slot="start" color="medium" name="book"></ion-icon>
+            <ion-label>Libro de Reclamaciones</ion-label>
+        </ion-item>
+        <ion-item href="https://digital.miraflores.gob.pe:8443/miraflores/solicitudinfpublica.muni">
+            <ion-icon slot="start" color="medium" name="book"></ion-icon>
+            <ion-label>Solicitud Acceso a la información</ion-label>
+        </ion-item>
+        <ion-item href="https://www.miraflores.gob.pe/consulta_vehiculos.php">
+            <ion-icon slot="start" color="medium" name="information"></ion-icon>
+            <ion-label>Información Vehicular</ion-label>
+        </ion-item>
+    </ion-list>
+</ion-content>
